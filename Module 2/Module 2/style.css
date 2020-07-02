@@ -1,70 +1,69 @@
+*{
+  box-sizing: border-box;
+}
 
+
+#testing{
+ background-color: #f1f1f1;
+ color: blue;
+ border: 4px solid black;
+ padding: 10px;
+ overflow: hidden;
+ float: left;
+ width: 32%;
+ margin: 0.5%;
+ position: relative;
+ font-size: 1.5em;
+
+}
+
+div.testng{  
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-left: 4px solid black;
+  border-bottom: 4px solid black;
+  padding: 5px;
+}
+
+h1{
+  text-align: center;
+  font-size: 3em;
+}
+
+#num1{
+  background-color: burlywood;
+  color: black;
+  font-size: 1.5em;
+  
+}
+
+#num2{
+  background-color: indigo;
+  color: white;
+  font-size: 1.5em;
+}
+
+#num3{
+  background-color: blueviolet;
+  color: black;
+  font-size: 1.5em;
+}
 
 /* mobile */
 @media screen and (max-width: 767px) {
-  .column1 {
+
+  #testing{
+    background-color: #f1f1f1;
+    color: blue;
+    border: 4px solid black;
     padding: 10px;
-    background-color:#ccc;
-    border: 4px solid black;
-    margin-bottom: 5px;
-  }
-  
-  .column2 {
-    padding: 10px;
-    background-color:#ccc;
-    border: 4px solid black;
-    margin-bottom: 5px;
-  }
-  
-  .column3 {
-    padding: 10px;
-    background-color:#ccc;
-    border: 4px solid black;
-    margin-bottom: 5px;
-
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-  }
-
-  .head1{
+    overflow: hidden;
+    width: 100%;
     position: relative;
-    left: 70%;
-    background-color: orangered;
-    bottom: 20px;
-    border: 4px solid black;
-    width: 30.1%;
-    padding: 1%;
-    margin-top: 2.4%;
-    border-right: none;
-  }
-
-  .head2{
-    position: relative;
-    left: 70%;
-    background-color: blue;
-    bottom: 20px;
-    border: 4px solid black;
-    width: 30.1%;
-    padding: 1%;
-    margin-top: 2.4%;
-    border-right: none;
-  }
-
-  .head3{
-    position: relative;
-    left: 70%;
-    background-color: indigo;
-    bottom: 20px;
-    border: 4px solid black;
-    width: 30.1%;
-    padding: 1%;
-    margin-top: 2.4%;
-    border-right: none;
-  }
+    font-size: 1.5em;
+   
+   }
   
 }
 
@@ -72,145 +71,40 @@
 
 /* tablet */
 /* @media screen and (max-width: 900px) and (min-width: 600px) */
-@media screen and (max-width: 991px) {
-    .column1 {
-      padding: 10px;
-      background-color:#ccc;
-      border: 4px solid black;
-      margin-bottom: 5px;
-    }
-    
-    .column2 {
-      padding: 10px;
-      background-color:#ccc;
-      border: 4px solid black;
-      margin-bottom: 5px;
-    }
-    
-    .column3 {
-      padding: 10px;
-      background-color:#ccc;
-      border: 4px solid black;
-      margin-bottom: 5px;
-  
-    }
-    
-    /* Clear floats after the columns */
-    .row:after {
-      content: "";
-      display: table;
-    }
-  
-    .head1{
-      position: relative;
-      left: 70%;
-      background-color: orangered;
-      bottom: 20px;
-      border: 4px solid black;
-      width: 29%;
-      padding: 1%;
-      margin-top: 1%;
-      border-right: none;
-    }
-  
-    .head2{
-      position: relative;
-      left: 70%;
-      background-color: blue;
-      bottom: 20px;
-      border: 4px solid black;
-      width: 29%;
-      padding: 1%;
-      margin-top: 1%;
-      border-right: none;
-    }
-  
-    .head3{
-      position: relative;
-      left: 70%;
-      background-color: indigo;
-      bottom: 20px;
-      border: 4px solid black;
-      width: 29%;
-      padding: 1%;
-      margin-top: 1%;
-      border-right: none;
-    }
-  
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+  #testing{
+    background-color: #f1f1f1;
+    color: blue;
+    border: 4px solid black;
+    padding: 10px;
+    overflow: hidden;
+    float: left;
+    width: 49%;
+    position: relative;
+    font-size: 1.5em;
+   
+   }
+   
+
 }
 
-
+/* desktop */
 @media screen and (min-width: 992px) {
-
-  .column1 {
-    float: left;
-    width: 25%;
+  #testing{
+    background-color: #f1f1f1;
+    color: blue;
+    border: 4px solid black;
     padding: 10px;
-    background-color:#ccc;
-    border: 4px solid black;
-    margin-right: 20px;
-  }
-  
-  .column2 {
+    overflow: hidden;
     float: left;
-    width: 25%;
-    padding: 10px;
-    background-color:#ccc;
-    border: 4px solid black;
-    margin-right: 20px;
-  }
-  
-  .column3 {
-    float: left;
-    width: 25%;
-    padding: 10px;
-    background-color:#ccc;
-    border: 4px solid black;
-    margin-right: 20px;
-  }
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  .head1{
+    width: 32%;
+    margin: 0.5%;
     position: relative;
-    left: 67%;
-    background-color: orangered;
-    bottom: 20px;
-    border: 4px solid black;
-    width: 34%;
-    padding: 0.7%;
-    margin-top: 2.5%;
-    border-top: none;
-    border-right: none;
-  }
+    font-size: 1.5em;
+   
+   }
   
-  .head2{
-    position: relative;
-    left: 75%;
-    background-color: blue;
-    color: white;
-    bottom: 20px;
-    border: 4px solid black;
-    width: 26%;
-    padding: 0.7%;
-    margin-top: 2.5%;
-    border-top: none;
-    border-right: none;
-  }
-  
-  .head3{
-    position: relative;
-    left: 75%;
-    background-color: purple;
-    bottom: 21px;
-    border: 4px solid black;
-    width: 26%;
-    padding: 0.7%;
-    margin-top: 2.5%;
-    border-top: none;
-    border-right: none;
-}
 }
